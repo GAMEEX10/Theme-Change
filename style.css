@@ -1,11 +1,53 @@
-.c{
+
+.ss{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-size: 100px;
+    background-color: lightblue;
 }
 
-h1{
-       display: flex;
-    justify-content: center;
+button{
+    display: flex;
+     justify-content: center;
+     margin-left: 90vh;
+}
+
+.c{
+    display: flex;
+   /* justify-content: center; */
+  /*  align-items: center; */
+    height: 50vh;
+    margin:5vh 20vh;
+    background-color: gray;
+    
+}
+
+/*.BB{
+    border: dashed;
+    border-color: black;
+     display: flex;
+      height: 10vh;
+    
+}*/
+
+.r{
+    width:30vh;
+    margin-right: auto;
+}
+
+.L{
+    width:30vh;
+    margin-left: auto;   
+}
+
+.cent{
+    height: 50vh;
+    width:72vh;
+}
+
+.r, .L, .cent{
+    height: 50vh;
+    margin-top: 1vh;
+    background-color: white;
+    color: white;
 }
